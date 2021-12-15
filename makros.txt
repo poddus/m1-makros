@@ -1,0 +1,166 @@
+Behandlungszeilen
+  D	Diagnose
+  L	Leistung
+  I	Impfung
+  IMP	Impfungen
+  N	Notiz
+  B	Befund
+
+------------------------------------------
+
+hb	Hausbesuchziffern
+  L	#hb-basis, #hb-weg, #hb-zusatz, #hb-palli
+
+i-cholera	Impfung Cholera als Reiseimpfung
+  D	Choleraimpfung als Reiseimpfung
+  I	Cholera
+  L	#i-cholera-l
+  IMP	#i-cholera
+
+i-cov-astra	Impfung COVID-19 astrazeneca
+  D	U11.9G{Notwendigkeitder Impfung gegen COVID-19, nicht näher bezeichnet}, Z26.9G{Impfberatung}, B99A{Infekt}, Z02 {Impfzertifikat}
+  I	COVID-19
+  L	#i-covid-astra-l
+  L	88351, 88325
+  IMP	#i-covid-astra
+
+i-cov-bio	Impfung COVID-19 biontech
+  D	U11.9G{Notwendigkeit der Impfung gegen COVID-19, nicht näher bezeichnet}, Z26.9G{Impfberatung}, B99A{Infekt}, Z02 {Impfzertifikat}
+  I	COVID-19
+  L	#i-covid-bio-l
+  L	88351, 88325
+  IMP	#i-covid-bio
+
+i-cov-mod	Impfung COVID-19 moderna
+  D	U11.9G{Notwendigkeit der Impfung gegen COVID-19, nicht näher bezeichnet}, Z26.9G{Impfberatung}, B99A{Infekt}, Z02 {Impfzertifikat}
+  I	COVID-19
+  L	#i-covid-mod-l
+  L	88351, 88325
+  IMP	#i-covid-mod
+
+i-cov-zert	Impf-/Genesenzertifikat
+  D	Z02 {Impfzertifikat}
+  L	88351, 88351-x2, 88352, 88352-x2, 88371
+  N	88351 bei Pat. die in unserer Praxis geimpft wurden
+  N	88352 für Pat. die außerhalb der Praxis geimpft wurden
+
+i-fsme	Impfung FSME
+  D	Z24.1G{FSME-Impfung}
+  I	Frühsommer Meningoenzephalitis (FSME)
+  L	#i-fsme-l
+  IMP	#i-fsme
+
+i-gelb	Impfung Gelbfieber
+  D	Gelbfieberimpfung als Reiseimpfung
+  I	Gelbfieber
+  B	unauff. allg. Befunde, keine Immunsupression bekannt, über Lebendimpfstoff aufgeklärt, Impfabstände zu lebend Impfstoffen beachten.
+  L	#i-gelb-l
+  IMP	#i-gelb
+
+i-grippe	Impfung Grippe
+  D	Z25.8G{Impfung gegen Grippe}, Z26.9G{Impfberatung}
+  I	Influenza (Echte Grippe)
+  L	#i-grippe-l
+  I	#i-grippe
+
+i-hepa	Impfung Hepatitis A
+  D	Z24.6G{Hepatitis-Impfung}
+  I	Hepatitis A
+  L	#i-hepa-l
+  IMP	#i-hepa
+
+i-hepab	Impfung Hepatitis A&B
+  D	Z24.6G{Hepatitis-Impfung}
+  I	Hepatitis A&B
+  L	#i-hepab-l
+  IMP	#i-hepab
+
+i-hepb	Impfung Hepatitis B
+  D	Z24.6G{Hepatitis-Impfung}
+  I	Hepatitis B
+  L	#i-hepb-l
+  IMP	#i-hepb
+
+i-hpv	Impfung HPV
+  D	Z25.8G{Impfung gegen humanes Papillomvirus}
+  I	Humanes Papillomavirus (HPV)
+  L	#i-hpv-l
+  IMP	#i-hpv
+
+i-je	Impfung Japanische Enzephalitis
+  D	Impfung gegen Enzephalitis japonica
+  I	Japanische Enzephalitis (JE)
+  L	#i-je-l
+  IMP	#i-je
+
+i-mening	Impfung Meningokokken
+  D	#i-mening-d
+  I	Meningokokken
+  L	#i-mening-l
+  IMP	#i-mening
+
+i-mmr	Impfung MMR
+  D	Z27.4G{Masern-Mumps-Röteln-Vakzination [MMR]}
+  I	Masern Mumps Röteln (MMR)
+  L	#i-mmr-l
+  IMP	#i-mmr
+
+i-pneu	Impfung Pneumokokken
+  D	Pneumokokkenimpfung, Z23.8G{Notwendigkeit der Impfung gegen Pneumokokken-Infektion}
+  I	Pneumokokken
+  L	#i-pneu-l
+  IMP	#i-pneu
+
+i-polio	Impfung Polio / IPV
+  D	#i-polio-d
+  I	Poliomyelitis / IPV (Inaktiviertes Poliomyelitis-Vakzin)
+  L	#i-polio-l
+  IMP	#i-polio
+
+i-reise	IGeL Impfungen Reiseimpfungen
+  D	Beratung zu Reiseimpfungen und ggf Malariaprophylaxeberatung
+  D	Impfungen und Ausschluss Kontraindikationen und Infekt
+  L	#reise
+  D	(Kosten enthalten Beratungs-,Impf- und Untersuchungsleistungen und Impfstoffkosten/Sachkosten)
+
+i-td	Impfung Td
+  D	Z27.8G{Impfung gegen Diphtherie-Tetanus [DT] [Td]}
+  I	Tetanus Diphtherie (Td)
+  L	#i-td-l
+  IMP	#i-td
+
+i-td-ipv	Impfung Td-IPV
+  D	Z27.8G{Impfung gegen Diphtherie-Tetanus [DT] [Td]}, Z24.0G{Notwendigkeit der Impfung gegen Poliomyelitis [IPV (Inaktivierte Polio-Vakzine)]}
+  I	Tetanus Diphtherie Inaktiviertes Polio Virus (Td-IPV)
+  L	#i-td-ipv-l
+  IMP	#i-td-ipv
+
+i-tdap	Impfung Tdap
+  D	Z26.9G{Impfung Pertussis, Tetanus und Diphterie}
+  I	Tetanus Diphterie Pertussis
+  L	#i-tdap-l
+
+i-tdap-ipv	Impfung Tdap-IPV
+  D	Z26.9G{Impfung Pertussis, Tetanus und Diphterie}, Z24.0G{Notwendigkeit der Impfung gegen Poliomyelitis [IPV (Inaktivierte Polio-Vakzine)]}
+  I	Tetanus Diphterie Pertussis Inaktiviertes Polio Virus (Tdap-IPV)
+  L	#i-tdap-ipv-l
+  IMP	#i-tdap-ipv
+
+i-toll	Impfung Tollwut
+  D	Tollwutimpfung
+  I	Tollwut / Rabies
+  L	#i-toll-l
+  IMP	#i-toll
+
+i-typhus	Impfung Typhus als Reiseimpfung
+  D	Typhusimpfung als Reiseimpfung
+  I	Typhus
+  L	#i-typhus-l
+  IMP	#i-typhus
+
+i-zoster	Impfung Herpes Zoster
+  D	Z26.9G{Impfung Herpes Zoster}
+  I	Herpes Zoster / Gürtelrose
+  L	#i-zoster-l
+  IMP	#i-zoster
+
