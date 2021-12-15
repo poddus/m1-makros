@@ -10,7 +10,7 @@ Instructions
 
 Die Datei `textbausteine` kann über die Textbausteinsbearbeitungsoberfläche importiert werden. `makros.txt` beschreibt den Aufbau und Inhalt der Makros, welche nach dem Import der Textbausteine händisch erstellt werden müssen.
 
-[Makro Bearbeitung Fenster - Übersicht](readme-img/makroanlage1.png)
+![Makro Bearbeitung Fenster - Übersicht](readme-img/makroanlage1.png)
 
-[Makro Bearbeitung Fenster - Detail](readme-img/makroanlage2.png)
+![Makro Bearbeitung Fenster - Detail](readme-img/makroanlage2.png)
 
